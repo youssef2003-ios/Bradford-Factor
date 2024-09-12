@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8571932C929DCC00E5079B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571922C929DCC00E5079B /* AppDelegate.swift */; };
+		FF8571952C929DCC00E5079B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571942C929DCC00E5079B /* SceneDelegate.swift */; };
+		FF8571972C929DCC00E5079B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571962C929DCC00E5079B /* ViewController.swift */; };
+		FF85719A2C929DCC00E5079B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF8571992C929DCC00E5079B /* Base */; };
+		FF85719C2C929DCC00E5079B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF85719B2C929DCC00E5079B /* Assets.xcassets */; };
+		FF85719F2C929DCC00E5079B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF85719E2C929DCC00E5079B /* Base */; };
+		FF8571AA2C929DCD00E5079B /* Bradford_FactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571A92C929DCD00E5079B /* Bradford_FactorTests.swift */; };
+		FF8571B42C929DCD00E5079B /* Bradford_FactorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571B32C929DCD00E5079B /* Bradford_FactorUITests.swift */; };
+		FF8571B62C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8571A62C929DCD00E5079B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8571872C929DCC00E5079B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF85718E2C929DCC00E5079B;
+			remoteInfo = "Bradford-Factor";
+		};
+		FF8571B02C929DCD00E5079B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8571872C929DCC00E5079B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF85718E2C929DCC00E5079B;
+			remoteInfo = "Bradford-Factor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF85718F2C929DCC00E5079B /* Bradford-Factor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bradford-Factor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8571922C929DCC00E5079B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8571942C929DCC00E5079B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF8571962C929DCC00E5079B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8571992C929DCC00E5079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF85719B2C929DCC00E5079B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF85719E2C929DCC00E5079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8571A02C929DCC00E5079B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8571A52C929DCD00E5079B /* Bradford-FactorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradford-FactorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8571A92C929DCD00E5079B /* Bradford_FactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorTests.swift; sourceTree = "<group>"; };
+		FF8571AF2C929DCD00E5079B /* Bradford-FactorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradford-FactorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8571B32C929DCD00E5079B /* Bradford_FactorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorUITests.swift; sourceTree = "<group>"; };
+		FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF85718C2C929DCC00E5079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571A22C929DCD00E5079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571AC2C929DCD00E5079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8571862C929DCC00E5079B = {
+			isa = PBXGroup;
+			children = (
+				FF8571912C929DCC00E5079B /* Bradford-Factor */,
+				FF8571A82C929DCD00E5079B /* Bradford-FactorTests */,
+				FF8571B22C929DCD00E5079B /* Bradford-FactorUITests */,
+				FF8571902C929DCC00E5079B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8571902C929DCC00E5079B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF85718F2C929DCC00E5079B /* Bradford-Factor.app */,
+				FF8571A52C929DCD00E5079B /* Bradford-FactorTests.xctest */,
+				FF8571AF2C929DCD00E5079B /* Bradford-FactorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8571912C929DCC00E5079B /* Bradford-Factor */ = {
+			isa = PBXGroup;
+			children = (
+				FF8571922C929DCC00E5079B /* AppDelegate.swift */,
+				FF8571942C929DCC00E5079B /* SceneDelegate.swift */,
+				FF8571962C929DCC00E5079B /* ViewController.swift */,
+				FF8571982C929DCC00E5079B /* Main.storyboard */,
+				FF85719B2C929DCC00E5079B /* Assets.xcassets */,
+				FF85719D2C929DCC00E5079B /* LaunchScreen.storyboard */,
+				FF8571A02C929DCC00E5079B /* Info.plist */,
+			);
+			path = "Bradford-Factor";
+			sourceTree = "<group>";
+		};
+		FF8571A82C929DCD00E5079B /* Bradford-FactorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8571A92C929DCD00E5079B /* Bradford_FactorTests.swift */,
+			);
+			path = "Bradford-FactorTests";
+			sourceTree = "<group>";
+		};
+		FF8571B22C929DCD00E5079B /* Bradford-FactorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8571B32C929DCD00E5079B /* Bradford_FactorUITests.swift */,
+				FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */,
+			);
+			path = "Bradford-FactorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF85718E2C929DCC00E5079B /* Bradford-Factor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8571B92C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-Factor" */;
+			buildPhases = (
+				FF85718B2C929DCC00E5079B /* Sources */,
+				FF85718C2C929DCC00E5079B /* Frameworks */,
+				FF85718D2C929DCC00E5079B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bradford-Factor";
+			productName = "Bradford-Factor";
+			productReference = FF85718F2C929DCC00E5079B /* Bradford-Factor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8571A42C929DCD00E5079B /* Bradford-FactorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8571BC2C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-FactorTests" */;
+			buildPhases = (
+				FF8571A12C929DCD00E5079B /* Sources */,
+				FF8571A22C929DCD00E5079B /* Frameworks */,
+				FF8571A32C929DCD00E5079B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8571A72C929DCD00E5079B /* PBXTargetDependency */,
+			);
+			name = "Bradford-FactorTests";
+			productName = "Bradford-FactorTests";
+			productReference = FF8571A52C929DCD00E5079B /* Bradford-FactorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8571AE2C929DCD00E5079B /* Bradford-FactorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8571BF2C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-FactorUITests" */;
+			buildPhases = (
+				FF8571AB2C929DCD00E5079B /* Sources */,
+				FF8571AC2C929DCD00E5079B /* Frameworks */,
+				FF8571AD2C929DCD00E5079B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8571B12C929DCD00E5079B /* PBXTargetDependency */,
+			);
+			name = "Bradford-FactorUITests";
+			productName = "Bradford-FactorUITests";
+			productReference = FF8571AF2C929DCD00E5079B /* Bradford-FactorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8571872C929DCC00E5079B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF85718E2C929DCC00E5079B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FF8571A42C929DCD00E5079B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FF85718E2C929DCC00E5079B;
+					};
+					FF8571AE2C929DCD00E5079B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FF85718E2C929DCC00E5079B;
+					};
+				};
+			};
+			buildConfigurationList = FF85718A2C929DCC00E5079B /* Build configuration list for PBXProject "Bradford-Factor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8571862C929DCC00E5079B;
+			productRefGroup = FF8571902C929DCC00E5079B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF85718E2C929DCC00E5079B /* Bradford-Factor */,
+				FF8571A42C929DCD00E5079B /* Bradford-FactorTests */,
+				FF8571AE2C929DCD00E5079B /* Bradford-FactorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF85718D2C929DCC00E5079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF85719C2C929DCC00E5079B /* Assets.xcassets in Resources */,
+				FF85719F2C929DCC00E5079B /* Base in Resources */,
+				FF85719A2C929DCC00E5079B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571A32C929DCD00E5079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571AD2C929DCD00E5079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF85718B2C929DCC00E5079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8571972C929DCC00E5079B /* ViewController.swift in Sources */,
+				FF8571932C929DCC00E5079B /* AppDelegate.swift in Sources */,
+				FF8571952C929DCC00E5079B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571A12C929DCD00E5079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8571AA2C929DCD00E5079B /* Bradford_FactorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8571AB2C929DCD00E5079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8571B42C929DCD00E5079B /* Bradford_FactorUITests.swift in Sources */,
+				FF8571B62C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8571A72C929DCD00E5079B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF85718E2C929DCC00E5079B /* Bradford-Factor */;
+			targetProxy = FF8571A62C929DCD00E5079B /* PBXContainerItemProxy */;
+		};
+		FF8571B12C929DCD00E5079B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF85718E2C929DCC00E5079B /* Bradford-Factor */;
+			targetProxy = FF8571B02C929DCD00E5079B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8571982C929DCC00E5079B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8571992C929DCC00E5079B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF85719D2C929DCC00E5079B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF85719E2C929DCC00E5079B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8571B72C929DCD00E5079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF8571B82C929DCD00E5079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8571BA2C929DCD00E5079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bradford-Factor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-Factor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8571BB2C929DCD00E5079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bradford-Factor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-Factor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF8571BD2C929DCD00E5079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-FactorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford-Factor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bradford-Factor";
+			};
+			name = Debug;
+		};
+		FF8571BE2C929DCD00E5079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-FactorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford-Factor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bradford-Factor";
+			};
+			name = Release;
+		};
+		FF8571C02C929DCD00E5079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-FactorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bradford-Factor";
+			};
+			name = Debug;
+		};
+		FF8571C12C929DCD00E5079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Bradford-FactorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bradford-Factor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF85718A2C929DCC00E5079B /* Build configuration list for PBXProject "Bradford-Factor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8571B72C929DCD00E5079B /* Debug */,
+				FF8571B82C929DCD00E5079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8571B92C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-Factor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8571BA2C929DCD00E5079B /* Debug */,
+				FF8571BB2C929DCD00E5079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8571BC2C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-FactorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8571BD2C929DCD00E5079B /* Debug */,
+				FF8571BE2C929DCD00E5079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8571BF2C929DCD00E5079B /* Build configuration list for PBXNativeTarget "Bradford-FactorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8571C02C929DCD00E5079B /* Debug */,
+				FF8571C12C929DCD00E5079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8571872C929DCC00E5079B /* Project object */;
+}
