@@ -16,6 +16,7 @@
 		FF8571AA2C929DCD00E5079B /* Bradford_FactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571A92C929DCD00E5079B /* Bradford_FactorTests.swift */; };
 		FF8571B42C929DCD00E5079B /* Bradford_FactorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571B32C929DCD00E5079B /* Bradford_FactorUITests.swift */; };
 		FF8571B62C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */; };
+		FF8571C32C929FF600E5079B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8571C22C929FF600E5079B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FF8571AF2C929DCD00E5079B /* Bradford-FactorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradford-FactorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8571B32C929DCD00E5079B /* Bradford_FactorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorUITests.swift; sourceTree = "<group>"; };
 		FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8571C22C929FF600E5079B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,9 @@
 		FF8571912C929DCC00E5079B /* Bradford-Factor */ = {
 			isa = PBXGroup;
 			children = (
-				FF8571922C929DCC00E5079B /* AppDelegate.swift */,
-				FF8571942C929DCC00E5079B /* SceneDelegate.swift */,
-				FF8571962C929DCC00E5079B /* ViewController.swift */,
-				FF8571982C929DCC00E5079B /* Main.storyboard */,
+				FF8571C42C92A19A00E5079B /* Controller */,
+				FF8571C52C92A1AA00E5079B /* View */,
 				FF85719B2C929DCC00E5079B /* Assets.xcassets */,
-				FF85719D2C929DCC00E5079B /* LaunchScreen.storyboard */,
 				FF8571A02C929DCC00E5079B /* Info.plist */,
 			);
 			path = "Bradford-Factor";
@@ -125,6 +124,26 @@
 				FF8571B52C929DCD00E5079B /* Bradford_FactorUITestsLaunchTests.swift */,
 			);
 			path = "Bradford-FactorUITests";
+			sourceTree = "<group>";
+		};
+		FF8571C42C92A19A00E5079B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF8571922C929DCC00E5079B /* AppDelegate.swift */,
+				FF8571942C929DCC00E5079B /* SceneDelegate.swift */,
+				FF8571962C929DCC00E5079B /* ViewController.swift */,
+				FF8571C22C929FF600E5079B /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF8571C52C92A1AA00E5079B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF8571982C929DCC00E5079B /* Main.storyboard */,
+				FF85719D2C929DCC00E5079B /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				FF8571972C929DCC00E5079B /* ViewController.swift in Sources */,
 				FF8571932C929DCC00E5079B /* AppDelegate.swift in Sources */,
 				FF8571952C929DCC00E5079B /* SceneDelegate.swift in Sources */,
+				FF8571C32C929FF600E5079B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
